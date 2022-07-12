@@ -1,0 +1,93 @@
+header{
+    background-color: hotpink;
+    width:100%;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    padding:15px;
+    margin:1px;
+}
+header h3{
+    text-transform: uppercase;
+}
+input{
+    text-transform: uppercase;
+}
+header sub{
+    font-weight: normal;
+}
+html{
+    overflow-x: hidden;
+    width:100%;
+    padding:0;
+    margin-left:0;
+    margin-right: 0;
+    background-color: indigo;
+
+}
+input[type="text"],input[type="number"],select{
+    width:80%;
+    outline:none;
+    display: block;
+    margin:auto;
+   
+    border-width:0 0 2px 0;
+}
+form{
+    width:80%;
+    margin:auto;
+}
+form>section>section{
+    margin:15px;
+}
+select option{
+    text-transform: capitalize;
+    text-align: center;
+}
+form>section{
+    background-color: black;
+    border:1px solid white;
+    box-shadow:1px 1px 2px,-1px,-1px,1px;
+    margin:10px;
+    padding:10px;
+    color: white;
+}
+form>section>p{
+    text-transform: uppercase;
+}
+*{
+    text-transform: capitalize;
+}
+body{
+    margin:0;
+    padding:0;
+}
+#last input{
+    width:200px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    padding:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#last{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+#app{
+    display: none;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:1;
+    
+}
+body *:focus,body{
+    background-color: hotpink;
+}
+
+
